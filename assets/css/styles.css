@@ -7,3 +7,8 @@ h2 {
 h3 {
   color: rgb(0, 95, 36); /* atributo CSS color */
 }
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
