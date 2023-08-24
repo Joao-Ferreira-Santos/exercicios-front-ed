@@ -1,14 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 h1 {
-  color: rgb(0, 255, 98); /* atributo CSS color */
+  color: rgb(255, 145, 0); /* atributo CSS color */
 }
+
 h2 {
-  color: rgb(0, 116, 44); /* atributo CSS color */
+  color: rgb(206, 141, 0); /* atributo CSS color */
 }
+
 h3 {
-  color: rgb(0, 95, 36); /* atributo CSS color */
+  color: rgb(173, 113, 1); /* atributo CSS color */
 }
+
+h4 {
+  color: rgb(141, 92, 0); /* atributo CSS color */
+}
+
+h5 {
+  color: rgb(117, 76, 0); /* atributo CSS color */
+}
+
+h6 {
+  color: rgb(82, 53, 0); /* atributo CSS color */
+}
+
 .menu {
-    list-style: none;
-    padding: 0;
-    display: flex;
+  list-style: none;
+  padding: 0;
+  display: flex;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: blue;
+  justify-content: space-between;
+}
+
+.menu li {
+  border: 1px solid blue;
+}
+
+.borda {
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.container-custom {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+.logo {
+  
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+.fundo-agua {
+  background-image: url(../images/fundo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
