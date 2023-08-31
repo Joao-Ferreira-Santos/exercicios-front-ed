@@ -2,9 +2,13 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-image: url("//picsum.photos/1920/1080");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-h1 {
+.h1 {
   color: rgb(255, 145, 0); /* atributo CSS color */
 }
 
@@ -16,16 +20,8 @@ h3 {
   color: rgb(173, 113, 1); /* atributo CSS color */
 }
 
-h4 {
-  color: rgb(141, 92, 0); /* atributo CSS color */
-}
-
-h5 {
-  color: rgb(117, 76, 0); /* atributo CSS color */
-}
-
-h6 {
-  color: rgb(82, 53, 0); /* atributo CSS color */
+.p1 {
+  color: orange;
 }
 
 .menu {
@@ -69,11 +65,4 @@ h6 {
 .logo img {
   max-width: 100px;
   height: auto;
-}
-
-.fundo-agua {
-  background-image: url(../images/fundo.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
